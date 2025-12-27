@@ -22,7 +22,7 @@ $$
 
 Luego calculo los elementos mediante: 
 
-**Elementos de $U$:**
+**Elementos de U:**
 - $u_{11} = a_{11}$
 - $u_{12} = a_{12}$
 - $u_{13} = a_{13}$
@@ -30,7 +30,7 @@ Luego calculo los elementos mediante:
 - $u_{23} = a_{23} - l_{21}u_{13}$
 - $u_{33} = a_{33} - (l_{31}u_{13} + l_{32}u_{23})$
 
-**Elementos de $L$:**
+**Elementos de L:**
 - $l_{21} = \frac{a_{21}}{u_{11}}$
 - $l_{31} = \frac{a_{31}}{u_{11}}$
 - $l_{32} = \frac{a_{32} - l_{31}u_{12}}{u_{22}}$
@@ -71,7 +71,7 @@ En los apuntes se menciona que para evitar las raíces cuadradas (y así tambié
 ### Descripcion
 En la hoja 3 de ejercicios hay una demostración que es el ejercicio 2, pide : Sea A no singular; A = LU = LDM con L y M triangulares inferiores con 1 en todos los valores de sus diagonales, D diagonal y A simetrica demostrar:
 
-#### *Primero: $M=L^T$* 
+#### *Primero:* $M=L^T$ 
 En esta parte creo no tener dudas, ya que: 
 - A = LDM
 - A = $A^T$ porque A es simetrica y D = $D^T$ al ser diagonal
