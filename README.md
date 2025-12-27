@@ -1,19 +1,67 @@
-# Dudas Metodos
-## Duda 1
-### Descripcion : Dolitttle , Para obtener LU yo lo que hago es para A matriz 3x3 escribir de forma generica LU del estilo L= [1,0,0],[l21,1,0],[l31,l32,1] ; U= [u11,u12, u13] , [0,u22,u,23], [[0,0,u33] y multiplicar y despejar para obtener: 
-u11= a11
-u12 = a12
-u13=a13
-u22 = a22-l21u12
-u23 = a23-l21u13
-u33 = a33 - ( l31u13 - l32u23)
+# Dudas Métodos
 
-l21= a21/u11
-l31 = a31/u11
-l32 = (a32-l31u12)/u22
+## Duda 1: Factorización LU con Doolittle
 
-Mis dudas son dos, la primera, ¿este metodo es correcto? Entiendo que si, porque lo he usado y comprobado y es funcional y la segunda es enfocado a matrices mas grandes que 3*3, porque en la hoja 1 hay matrices 4*4, para lo que hice fue el mismo metodo pero 4*4, mi duda es si para matrices n*n hay un desarollo más eficaz ya que logro ver que hay un patron y en los apuntes hay un sumatorio pero no logro entenderlo bien del todo. 
+### Descripción
 
-## Duda 2
-### Descripcion: Usar Cholesky, en los apuntes se habla de que para evitar las raices cuadradas y asi también los numeros irraciones usar LDL^T , en vez de LL^t, tengo dos dudas, la primera no se como se saca realmente D, porque compañeros a los que he pedido apuntes no las usan y en los apuntes no he encontrado el desarollo.
-La segunda es sobre como llegar a LL^t, ya que yo hago parecido al anterior, obtengo los valores de L multiplicandola por su traspuesta e igualando los resultados a los valores de A, pero por lo que he visto en otros compañeros , hacen Dollitle y obtienen LU -> eso pasan a L D D^-1 U -> B= LD ; B^T = D^-1U -> B^B^T y ahi hacen Chelosky, me han dicho que su metodo es igual de valido que el mio pero no estoy seguro de como hacer su metodo ni si son igual de validos. 
+Para obtener la factorización LU usando el método de Doolittle para una matriz $A$ de $3 \times 3$, escribo de forma genérica las matrices $L$ y $U$ de la siguiente manera:
+
+$$
+L = \begin{bmatrix}
+1 & 0 & 0 \\
+l_{21} & 1 & 0 \\
+l_{31} & l_{32} & 1
+\end{bmatrix}
+\quad
+U = \begin{bmatrix}
+u_{11} & u_{12} & u_{13} \\
+0 & u_{22} & u_{23} \\
+0 & 0 & u_{33}
+\end{bmatrix}
+$$
+
+Luego calculo los elementos mediante: 
+
+**Elementos de $U$:**
+- $u_{11} = a_{11}$
+- $u_{12} = a_{12}$
+- $u_{13} = a_{13}$
+- $u_{22} = a_{22} - l_{21}u_{12}$
+- $u_{23} = a_{23} - l_{21}u_{13}$
+- $u_{33} = a_{33} - (l_{31}u_{13} + l_{32}u_{23})$
+
+**Elementos de $L$:**
+- $l_{21} = \frac{a_{21}}{u_{11}}$
+- $l_{31} = \frac{a_{31}}{u_{11}}$
+- $l_{32} = \frac{a_{32} - l_{31}u_{12}}{u_{22}}$
+
+### Mis dudas
+
+1. **¿Este método es correcto?** Entiendo que sí, porque lo he usado y comprobado y es funcional. 
+
+2. **¿Cómo adaptarlo a matrices más grandes que $3 \times 3$? ** En la hoja 1 hay fórmulas generales, pero no sé cómo aplicarlas de forma práctica para obtener los valores específicos. 
+
+---
+
+## Duda 2: Factorización de Cholesky
+
+### Descripción
+
+En los apuntes se menciona que para evitar las raíces cuadradas (y así también los números irracionales), se puede usar la factorización $LDL^T$ en vez de $LL^T$. 
+
+### Mis dudas
+
+1. **¿Cómo obtener la factorización $LDL^T$?** No sé cómo implementar este método en la práctica.
+
+2. **¿Cómo llegar a $LL^T$?** Yo hago algo similar al método anterior:  obtengo los valores de $L$ multiplicándola por su traspuesta $L^T$ e igualando los resultados a los valores de $A$.  Sin embargo, por lo que he visto en otros recursos, parece que hay formas más directas o eficientes de hacerlo.
+
+---
+
+## Notación
+
+- $A$: matriz original
+- $L$: matriz triangular inferior (lower)
+- $U$: matriz triangular superior (upper)
+- $D$: matriz diagonal
+- $L^T$: traspuesta de $L$
+- $A^{-1}$: inversa de $A$
