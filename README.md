@@ -98,7 +98,9 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
  - Para cada vector $e_{k}$ , toma $x=L^{-t}e_{k}$ => $xL^t=e_{k} **DUDA ESTO ES CIERTO?**
  - $x^tAx$ => $(L^{-t}e_{k})^t$ A $(L^{-t}e_{k})$
  - $(L^{-t}e_{k})^t$ = $e_{k}^t (L^{-t})^t$ => $(L^{-t})^t$ = $L^{-1}$ =>  $e_{k}^t L^{-1}$
- - 
+ - $L^{-t}$ * $L^{t}$ = I
+ - L * $L^{-1}$ = I
+ - $(L^{-t}e_{k})^t$ A $(L^{-t}e_{k})$ =>  $(L^{-t}e_{k})^t$ LDL^t $(L^{-t}e_{k})$ = $e_{k}^t L^{-1} LDL^t 
  ---
 ## Notación
 
