@@ -88,7 +88,7 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
 - $L^t$ x=y, siendo y un vector **MI DUDA ES SI y $\neq$ 0 obligatoriamente**
 - Suponiendo que y $\neq$ 0
 - $L^t$ x=y => $x^tLDL^t x$ = $(x^tL)D(L^t x)$ = $y^tDy$ 
-- al ser D diagonal:
+- al ser D diagonal: <br>
                            $\sum_{i=1}^{n} d_{ii} * y^2_{i}$ = $y^tDy$ 
 ---
 ## Notación
