@@ -95,7 +95,7 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
 
  ### *Tercero: Si A es definida positiva entonces $d_{ii} > 0*
  En esta también tengo dudas
- - Para cada vector $e_{k}$ , toma $x=L^(-t)e_{k}$ = $e_{k}^tDe_{k}$
+ - Para cada vector $e_{k}$ , toma $x=L^{-t}e_{k}$ = $e_{k}^tDe_{k}$
 ---
 ## Notación
 
