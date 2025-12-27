@@ -97,7 +97,7 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
  En esta también tengo dudas
  - Para cada vector $e_{k}$ , toma $x=L^{-t}e_{k}$ => $xL^t=e_{k} **DUDA ESTO ES CIERTO?**
  - $x^tAx$ => $(L^{-t}e_{k})^t$ A $(L^{-t}e_{k})$
- - $(L^{-t}e_{k})^t$ = $e_{k}^t L^{-t}^t$ 
+ - $(L^{-t}e_{k})^t$ = $e_{k}^t (L^{-t})^t$ 
  ---
 ## Notación
 
