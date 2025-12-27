@@ -61,7 +61,7 @@ En los apuntes se menciona que para evitar las raíces cuadradas (y así tambié
    - Así obtienen:  $A = B \cdot B^T$
    - Y sobre $BB^T$ aplican **Cholesky**
 
-   ¿Es esta la forma correcta de conectar ambos métodos?
+   ¿Es esta la forma correcta de conectar ambos métodos, sobre todo la duda radica en saber si $LDL^T$ en el examen sera la unica valida o si se podra hacer $LL^T$??
 
 
 ---
