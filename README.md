@@ -57,7 +57,7 @@ En los apuntes se menciona que para evitar las raíces cuadradas (y así tambié
    
    - Primero aplican **Doolittle** y obtienen $LU$
    - Luego descomponen:  $LU = LD \cdot D^{-1}U$
-   - D = Matriz diagonal donde $d{ii} = /sqrt(u{ii})$ y d{if}=0 siendo i /neq f
+   - D = Matriz diagonal donde $d{ii} = /sqrt(u{ii})$ y d{if}=0 siendo i /neq f$
    - Definen:  $B = LD$ y $B^T = D^{-1}U$
    - Así obtienen:  $A = B \cdot B^T$
    - Y sobre $BB^T$ aplican **Cholesky**
