@@ -100,8 +100,11 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
  - $(L^{-t}e_{k})^t$ = $e_{k}^t (L^{-t})^t$ => $(L^{-t})^t$ = $L^{-1}$ =>  $e_{k}^t L^{-1}$
  - $L^{-t}$ * $L^{t}$ = I
  - L * $L^{-1}$ = I
- - $(L^{-t}e_{k})^t$ A $(L^{-t}e_{k})$ =>  $(L^{-t}e_{k})^t$ LDL^t $(L^{-t}e_{k})$ = $e_{k}^t L^{-1} LDL^t 
- ---
+ - $(L^{-t}e_{k})^t$ A $(L^{-t}e_{k})$ =>  $(L^{-t}e_{k})^t$ LDL^t $(L^{-t}e_{k})$ = $e_{k}^t L^{-1} LDL^t (L^{-t}e_{k})$
+ - $e_{k}^t (L^{-1} L)D(L^t L^{-t})e_{k}$ =  $e_{k}^t I D I e_{k}$ = $e_{k}^t D e_{k}$ = $d_{ii}$
+ - $x^tAx$ = $d_{ii}$
+ - $x^tAx$ >0 => $d_{ii}$ > 0, q.e.m
+  ---
 ## Notación
 
 - $A$: matriz original
