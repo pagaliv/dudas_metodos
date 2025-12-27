@@ -84,7 +84,7 @@ Por unicidad de factorización se deduce que
 #### *Segundo: Si $d_{ii}$ > 0 entonces A def positiva*
 En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hacerlo es:
 - Por definición A es def positiva si $xAx^t$ > 0; tomando x $\neq$ 0
-- $xAx^t$
+- $xAx^t$ = $xLDL^t x^t$
 
 
 ---
