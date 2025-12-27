@@ -83,10 +83,11 @@ Por unicidad de factorización se deduce que
 
 #### *Segundo: Si $d_{ii}$ > 0 entonces A def positiva*
 En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hacerlo es:
-- Por definición A es def positiva si $xAx^t$ > 0; tomando x $\neq$ 0
-- $xAx^t$ = $xLDL^t x^t$
-
-
+- Por definición A es def positiva si $x^tAx$ > 0; tomando x $\neq$ 0
+- $x^tAx$ = $x^tLDL^t x$
+- $L^t$ x=y, siendo y un vector **MI DUDA ES SI y $\neq$ 0 obligatoriamente**
+- Suponiendo que y $\neq$ 0
+- $L^t$ x=y => $x^tLDL^t x$ = $(x^tL)D(L^t x)$
 ---
 ## Notación
 
