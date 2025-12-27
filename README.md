@@ -71,7 +71,7 @@ En los apuntes se menciona que para evitar las raíces cuadradas (y así tambié
 ### Descripcion
 En la hoja 3 de ejercicios hay una demostración que es el ejercicio 2, pide : Sea A no singular; A = LU = LDM con L y M triangulares inferiores con 1 en todos los valores de sus diagonales, D diagonal y A simetrica demostrar:
 
-#### Primero: $M=L^T$ 
+#### *Primero: $M=L^T$* 
 En esta parte creo no tener dudas, ya que: 
 - A = LDM
 - A = $A^T$ porque A es simetrica y D = $D^T$ al ser diagonal
@@ -80,6 +80,12 @@ En esta parte creo no tener dudas, ya que:
 - A = $A^T$ = LDM =  $M^T$ D $L^T$
 Por unicidad de factorización se deduce que
 -  $M^T$ = L y $L^T$ = M, quedando demostrado que M= $L^T$ que es lo que inicialmente se queria demostrar
+
+#### *Segundo: Si $d_{ii}$ > 0 entonces A def positiva*
+En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hacerlo es:
+- Por definición A es def positiva si $xAx^t$ > 0; tomando x $\neq$ 0
+- $xAx^t$
+
 
 ---
 ## Notación
