@@ -81,7 +81,7 @@ En esta parte creo no tener dudas, ya que:
 Por unicidad de factorización se deduce que
 -  $M^T$ = L y $L^T$ = M, quedando demostrado que M= $L^T$ que es lo que inicialmente se queria demostrar
 
-#### *Segundo: Si $d_{ii}$ > 0 entonces A def positiva*
+#### *Segundo: Si* $d_{ii}$ > 0 *entonces A def positiva*
 En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hacerlo es:
 - Por definición A es def positiva si $x^tAx$ > 0; tomando x $\neq$ 0
 - $x^tAx$ = $x^tLDL^t x$
