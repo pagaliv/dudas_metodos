@@ -87,7 +87,7 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
 - $x^tAx$ = $x^tLDL^t x$
 - $L^t$ x=y, siendo y un vector **MI DUDA ES SI y $\neq$ 0 obligatoriamente**
 - Suponiendo que y $\neq$ 0
-- $L^t$ x=y => $x^tLDL^t x$ = $(x^tL)D(L^t x)$
+- $L^t$ x=y => $x^tLDL^t x$ = $(x^tL)D(L^t x)$ 
 ---
 ## Notación
 
