@@ -53,7 +53,16 @@ En los apuntes se menciona que para evitar las raíces cuadradas (y así tambié
 
 1. **¿Cómo obtener la factorización $LDL^T$?** No sé cómo implementar este método en la práctica.
 
-2. **¿Cómo llegar a $LL^T$?** Yo hago algo similar al método anterior:  obtengo los valores de $L$ multiplicándola por su traspuesta $L^T$ e igualando los resultados a los valores de $A$.  Sin embargo, por lo que he visto en otros recursos, parece que hay formas más directas o eficientes de hacerlo.
+2. **¿Cómo llegar a $LL^T$?** Yo hago algo similar al método anterior: obtengo los valores de $L$ multiplicándola por su traspuesta $L^T$ e igualando los resultados a los valores de $A$. Sin embargo, por lo que he visto en otros compañeros, hacen lo siguiente: 
+   
+   - Primero aplican **Doolittle** y obtienen $LU$
+   - Luego descomponen:  $LU = LD \cdot D^{-1}U$
+   - Definen:  $B = LD$ y $B^T = D^{-1}U$
+   - Así obtienen:  $A = B \cdot B^T$
+   - Y sobre $BB^T$ aplican **Cholesky**
+
+   ¿Es esta la forma correcta de conectar ambos métodos?
+
 
 ---
 
