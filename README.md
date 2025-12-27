@@ -39,7 +39,7 @@ Luego calculo los elementos mediante:
 
 1. **¿Este método es correcto?** Entiendo que sí, porque lo he usado y comprobado y es funcional. 
 
-2. **¿Cómo adaptarlo a matrices más grandes que $3 \times 3$? ** En la hoja 1 hay fórmulas generales, pero no sé cómo aplicarlas de forma práctica para obtener los valores específicos. 
+2. **¿Cómo adaptarlo a matrices más grandes que $3 \times 3$?** En la hoja 1 hay fórmulas generales, pero no sé cómo aplicarlas de forma práctica para obtener los valores específicos. 
 
 ---
 
