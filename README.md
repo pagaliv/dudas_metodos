@@ -91,6 +91,9 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
 - al ser D diagonal: <br>
   $\sum_{i=1}^{n} d_{ii} * y^2_{i}$ = $y^tDy
   \quad$
+  \[
+\sum_{i=1}^{n} d_{ii} \cdot y^2_{i} = y^t D y
+\]
 ---
 ## Notación
 
