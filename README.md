@@ -79,7 +79,7 @@ En esta parte creo no tener dudas, ya que:
 - $(LDM)^T$ => $M^T$ $D^T$ $L^T$ => $M^T$ D $L^T$.
 - A = $A^T$ = LDM =  $M^T$ D $L^T$
 Por unicidad de factorización se deduce que
--  $M^T$ = L y $L^T$ = M, quedando demostrado que M=$L^T$ que es lo que inicialmente se queria demostrar
+-  $M^T$ = L y $L^T$ = M, quedando demostrado que M= $L^T$ que es lo que inicialmente se queria demostrar
 
 ---
 ## Notación
