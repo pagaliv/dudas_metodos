@@ -57,11 +57,12 @@ En los apuntes se menciona que para evitar las raíces cuadradas (y así tambié
    
    - Primero aplican **Doolittle** y obtienen $LU$
    - Luego descomponen:  $LU = LD \cdot D^{-1}U$
+   - D = Matriz diagonal donde $d{ii} = /sqrt(u{ii})$ y d{if}=0 siendo i /neq f
    - Definen:  $B = LD$ y $B^T = D^{-1}U$
    - Así obtienen:  $A = B \cdot B^T$
    - Y sobre $BB^T$ aplican **Cholesky**
 
-   ¿Es esta la forma correcta de conectar ambos métodos, sobre todo la duda radica en saber si $LDL^T$ en el examen sera la unica valida o si se podra hacer $LL^T$ y sobre el metodo de obtencion de $LL^T$ porque para 3x3 es factible mi metodo y para 4x4 aunque se haga un poco más largo también pero para n*n es inviable, por lo que no se si es del todo eficaz ?
+   ¿Esta forma es la correcta o la unica correcta es la suya? , ¿sobre todo la duda radica en saber si $LDL^T$ en el examen sera la unica valida o si se podra hacer $LL^T$ y sobre el metodo de obtencion de $LL^T$ porque para 3x3 es factible mi metodo y para 4x4 aunque se haga un poco más largo también pero para n*n es inviable, por lo que no se si es del todo eficaz ?
 
 
 ---
