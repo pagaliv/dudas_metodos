@@ -93,7 +93,7 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
 - suponiendo C implica que ese sumatorio > 0  **SEGUNDA DUDA, si y $\neq$ 0 significa que el sumario > 0 o \neq 0**
 - si $y^tDy$ > 0 =>  $x^tAx$ > 0 y q.e.m. que A es definida postiva por definición
 
- ### *Tercero: Si A es definida positiva entonces $d_{ii} > 0$*
+ ### *Tercero: Si A es definida positiva entonces $d_{ii} > 0$ .*
  En esta también tengo dudas
  - Para cada vector $e_{k}$ , toma $x=L^{-t}e_{k}$ => $xL^t=e_{k} **DUDA ESTO ES CIERTO?**
  - $x^tAx$ => $(L^{-t}e_{k})^t$ A $(L^{-t}e_{k})$
