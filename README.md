@@ -105,6 +105,8 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
  - $x^tAx$ = $d_{ii}$
  - $x^tAx$ >0 => $d_{ii}$ > 0, q.e.m
   ---
+## Duda 4
+## Descripción: En la hoja tres ejercicio 4 hay una matriz tridiagonal, en los apuntes no se menciona como resolverlas a parte de metodos normales pero al ser una matriz especial entiendo que se debe usar un metodo especial, en que he econtrado es el metodo del algoritmo de thomas que es una variante de una despejación gaussiana
 ## Notación
 
 - $A$: matriz original
