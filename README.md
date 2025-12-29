@@ -106,7 +106,9 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
  - $x^tAx$ >0 => $d_{ii}$ > 0, q.e.m
   ---
 ## Duda 4
-## Descripción: En la hoja tres ejercicio 4 hay una matriz tridiagonal, en los apuntes no se menciona como resolverlas a parte de metodos normales pero al ser una matriz especial entiendo que se debe usar un metodo especial, en que he econtrado es el metodo del algoritmo de thomas que es una variante de una despejación gaussiana
+## Descripción: En la hoja tres ejercicio 4 hay una matriz tridiagonal, en los apuntes no se menciona como resolverlas a parte de metodos normales pero al ser una matriz especial entiendo que se debe usar un metodo especial, en que he econtrado es el metodo del algoritmo de thomas que es una variante de una despejación gaussiana, basada en despejar $F_{n-1}$ con F_{n}, quedando al final solo $a_{n,n}$ y despejando desde ahí. Pero este metodo es iterativo y se necesitan n operaciones, no se si es el método adecuado.
+
+### Cuestion: ¿Para despejar matrices tridiagonales se debe usar el metodo de Thomas?
 ## Notación
 
 - $A$: matriz original
