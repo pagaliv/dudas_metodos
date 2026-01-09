@@ -117,5 +117,10 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
 - $D$: matriz diagonal
 - $L^T$: traspuesta de $L$
 - $A^{-1}$: inversa de $A$
+---
 ## Duda 5
 ### Descripcion: En la hoja tres ejercicio 11 se habla del metodo de hauseholding y no lo he encontrado en los apuntes y las explicaciones que he encontrado en internet no las he entendido, como funciona este metodo exactamente. 
+---
+## Duda 6
+### Descripcion : Para el metodo de sobre relajación la forma de carcular el w optimo es:
+$2/{1+\sqrt(1-p(J^2))}$
