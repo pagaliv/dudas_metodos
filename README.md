@@ -123,4 +123,4 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
 ---
 ## Duda 6
 ### Descripcion : Para el metodo de sobre relajación la forma de carcular el w optimo es:
-$2/{1+\sqrt(1-p(J^2))}$
+$\frac{2}{1+\sqrt(1-p(J^2))}$
