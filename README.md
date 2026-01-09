@@ -161,4 +161,24 @@ De tal forma que:
 $$
 L \cdot U = A
 $$
-   
+- Metodo de Cholesky: Se puede aplicar para toda matriz hermetica y definida positiva.
+
+   - De tal forma que:
+
+$$
+A = L \cdot L^T 
+$$
+$$
+L = \begin{bmatrix}
+l_{11} & 0 & 0 \\
+l_{21} & 1 & 0 \\
+l_{31} & l_{32} & l_{33}
+\end{bmatrix}
+\quad
+U = \begin{bmatrix}
+l_{11} & l_{21} & l_{31} \\
+0 & l_{22} & l_{32} \\
+0 & 0 & l_{33}
+\end{bmatrix}
+$$
+
