@@ -191,3 +191,16 @@ $$
 $$
 x_{n+1} = x_{n} -  \frac{f(x_{n})}{f'(x_{n})}
 $$
+- Metodo de la regula falsi: También iterativo, pero ya sin derivar usando la siguiente formula:
+
+$$
+c=\frac{a \cdot f(b) - b \cdot f(a)}{f(b) - f(a)}
+$$
+
+Después se evalua c y dependiendo de si el punto fijo queda a la izquierda a la derecha se hace el mismo calculo con [a,c] o [c,b] 
+
+- Metodo de la secante se hace aplicando la siguiete formula:
+
+$$
+x_{n+1} = x_{n} -f(x_{n}) \cdot \frac{x_{n} - x_{n-1}}{f(x_{n} - f(x_{n-1})}
+$$
