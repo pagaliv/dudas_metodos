@@ -139,7 +139,7 @@ Siendo p(J) el radio espectral de la matriz de iteración de Jacobi
 - Metodo de Gauss con pivote parcial : 
      En cada paso, antes de eliminar una columna, buscamos el elemento de mayor valor absoluto en la columna actual por debajo de la diagonal y intercambiamos filas para ponerlo en la posición pivote.
 - Metodo de Gauss con pivote parcial escalado: Se basa en lo mismo que el anterior pero comparamos valores escalados: dividimos cada elemento de la columna por el máximo absoluto de su fila
-- Descomposición LU /Dollitle $\\$ basada en hacer $\\$
+
  - Descomposición LU /Doolittle basada en hacer: 
 
 $$
