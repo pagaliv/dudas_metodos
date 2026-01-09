@@ -128,5 +128,10 @@ Siendo p(J) el radio espectral de la matriz de iteración de Jacobi
 ### Pregunta : ¿Esto es cierto? En tal caso de ser cierto, ¿Es util? ¿Cuando se pregunta si hay un w optimo lo que se pide es calcular esto?
 
 ## Duda 7
-### Descripcion: ¿Que significa exactamente que una funcion sea contractiva? lo he leido varias veces y lo he intentado comprender. Por ejemplo el ejercicio 10 de la hoja 4 no entiendo como hacerlo. 
-
+### Descripcion: ¿Que significa exactamente que una funcion sea contractiva? lo he leido varias veces y lo he intentado comprender. Por ejemplo el ejercicio 10 de la hoja 4 no entiendo como hacerlo.
+---
+## Duda Final 
+### Descripción: Esto no es una duda persé, sino más bien una duda general de si he entendido bien todo lo que entra. Como yo he estudiando basandome en los apuntes y las hojas de ejercicios me voy a basar en ello.
+### Temario Hoja 1 y 2
+- error relativo y error absoluto
+- Norma matricial 1,2,3, $\infty$
