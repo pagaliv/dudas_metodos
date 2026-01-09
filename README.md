@@ -126,3 +126,7 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
 $\frac{2}{1+\sqrt{1-p(J^2)}}$
 Siendo p(J) el radio espectral de la matriz de iteración de Jacobi
 ### Pregunta : ¿Esto es cierto? En tal caso de ser cierto, ¿Es util? ¿Cuando se pregunta si hay un w optimo lo que se pide es calcular esto?
+
+## Duda 7
+### Descripcion: ¿Que significa exactamente que una funcion sea contractiva? lo he leido varias veces y lo he intentado comprender. Por ejemplo el ejercicio 10 de la hoja 4 no entiendo como hacerlo. 
+
