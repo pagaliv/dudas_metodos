@@ -202,5 +202,8 @@ Después se evalua c y dependiendo de si el punto fijo queda a la izquierda a la
 - Metodo de la secante se hace aplicando la siguiete formula:
 
 $$
-x_{n+1} = x_{n} -f(x_{n}) \cdot \frac{x_{n} - x_{n-1}}{f(x_{n} - f(x_{n-1})}
+x_{n+1} = x_{n} -f(x_{n}) \cdot \frac{x_{n} - x_{n-1}}{f(x_{n}) - f(x_{n-1})}
 $$
+- Probar convergencia de sucesiones
+- Hallar puntos fijos
+- Probar que las funciones son contractivas
