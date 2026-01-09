@@ -181,6 +181,8 @@ l_{11} & l_{21} & l_{31} \\
 0 & 0 & l_{33}
 \end{bmatrix}
 $$
+- Metodo de Jacobi: se basa en calcular $x_{n+1}$ separar en la linea n $x_{n}$ , coger un valor inicial e ir iterando con estos valores.
+- Metodo de Gauss Seidel, igual que Jacobi pero una vez obtenido um $x_{n+1}$ se usa este valor en los siguientes valores en vez de $x_{n}$
 ### Hoja 4
 - Metodo de biseccion: basandose en el teorema de bolzano si hay un punto fijo entre [a,b] calcular $\frac{a}b$ = c y calcular si el punto fijo esta entre [a,c] o [c,b] y repetir el proceso las veces que se conside necesario.
 - Metodo del punto fijo: teniendo f(x)=0 -> g(x)=x e iterar, hay que tener cuidado de que no diverja.
