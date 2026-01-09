@@ -182,5 +182,11 @@ l_{11} & l_{21} & l_{31} \\
 \end{bmatrix}
 $$
 ### Hoja 4
-- Metodo de biseccion: basandose en el teorema de bolzano si hay un punto fijo entre [a,b] calcular $\frac{a}b$
+- Metodo de biseccion: basandose en el teorema de bolzano si hay un punto fijo entre [a,b] calcular $\frac{a}b$ = c y calcular si el punto fijo esta entre [a,c] o [c,b] y repetir el proceso las veces que se conside necesario.
+- Metodo del punto fijo: teniendo f(x)=0 -> g(x)=x e iterar, hay que tener cuidado de que no diverja.
+- Metodo de newton: similar al del punto fijo pero aplicando la siguiente función:
+
+$$
+
+x_{n+1} = x_{n} - q /frac{f(x_{n})}{f'(x_{n})}
 
