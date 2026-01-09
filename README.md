@@ -135,3 +135,7 @@ Siendo p(J) el radio espectral de la matriz de iteración de Jacobi
 ### Temario Hoja 1 y 2
 - error relativo y error absoluto
 - Norma matricial 1,2,3, $\infty$
+- Metodo de Gauss sin pivote
+- Metodo de Gauss con pivote parcial
+     En cada paso, antes de eliminar una columna, buscamos el elemento de mayor valor absoluto en la columna actual por debajo de la diagonal y intercambiamos filas para ponerlo en la posición pivote.
+- Metodo de Gauss con pivote total
