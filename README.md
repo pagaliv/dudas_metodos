@@ -124,3 +124,5 @@ En este si que tengo más dudas en alguno de los pasos, lo que entiendo para hac
 ## Duda 6
 ### Descripcion : Para el metodo de sobre relajación la forma de carcular el w optimo es:
 $\frac{2}{1+\sqrt{1-p(J^2)}}$
+Siendo p(J) el radio espectral de la matriz de iteración de Jacobi
+### Pregunta : ¿Esto es cierto? En tal caso de ser cierto, ¿Es util? ¿Cuando se pregunta si hay un w optimo lo que se pide es calcular esto?
