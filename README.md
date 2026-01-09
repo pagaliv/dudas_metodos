@@ -187,5 +187,5 @@ $$
 - Metodo de newton: similar al del punto fijo pero aplicando la siguiente función:
 
 $$
-x_{n+1} = x_{n} - q /frac{f(x_{n})}{f'(x_{n})}
+x_{n+1} = x_{n} - q \frac{f(x_{n})}{f'(x_{n})}
 $$
