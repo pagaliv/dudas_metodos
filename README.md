@@ -134,7 +134,7 @@ Siendo p(J) el radio espectral de la matriz de iteración de Jacobi
 
 $$
 $λ^{(n+1)}= \frac{(y^{(n+1)})^T z^{(n)}}{(z^{(n)})^T z^{(n)}}
-4$
+$$
 ---
 ## Duda Final 
 ### Descripción: Esto no es una duda persé, sino más bien una duda general de si he entendido bien todo lo que entra. Como yo he estudiando basandome en los apuntes y las hojas de ejercicios me voy a basar en ello.
