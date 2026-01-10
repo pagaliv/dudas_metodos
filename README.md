@@ -235,3 +235,46 @@ $$
 λ^{(n+1)}= \frac{(y^{(n+1)})^T z^{(n)}}{(z^{(n)})^T z^{(n)}}
 $$
 
+- Metodo de las potencias inversa
+Similar al de las potencias pero para calcular el autovalro más pequeño.
+Se resuelve $Ay^{(n+1)}=z^{(n)}$ para lo que se calcula el coeficiente de Rayleight
+
+$$
+μ^{(n+1)}= \frac{(y^{(n+1)})^T z^{(n)}}{(z^{(n)})^T z^{(n)}}
+$$
+
+aplicando despues $\frac{1}{μ^{(n+1)}} y para seguir iterando como en el metodo de las potencias 
+
+$$
+z^{(n)} = \frac{y^{(n)}}{||y^{(n)}||}
+$$
+
+- Metodo de las potencia inversa desplazada: Similar al metodo de la potencia inversa pero sirve para calcular el autovalor mas cercano a un d concreto, para usarlo hay que
+1. Resolver el sistema
+
+$$
+(A-dI)y^{(n+1)} = z^{(n)}
+$$
+
+2. Calcular el cociente
+
+$$
+μ^{(n+1)}= \frac{(y^{(n+1)})^T z^{(n)}}{(z^{(n)})^T z^{(n)}}
+$$
+
+3. Calcular autovalor de A
+
+   
+$$
+λ^{(n+1)}=d+\frac{1}{μ^{(n+1)}}
+$$
+
+4. Normalizar para obtener z
+
+$$
+z^{(n)} = \frac{y^{(n)}}{||y^{(n)}||}
+$$
+
+5. Parar si $|λ^{(n+1)} - λ^{(k)}|< ϵ
+
+
