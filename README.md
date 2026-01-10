@@ -277,4 +277,9 @@ $$
 
 5. Parar si $|λ^{(n+1)} - λ^{(k)}|< ϵ$
 
+- Metodo de Discos de Gerschgorin: El teorema de Gerschgorin es una herramienta geométrica para localizar los autovalores de una matriz en el plano complejo. No los calcula exactamente, pero da regiones donde deben estar. Este metodo sirve solo para matrices nxn.
+El metodo consiste en calcular dos cosas, el centro y el radio.
+El centro (C) es el valor de $a_{ii}$ y el radio (R) sera la suma del resto de valores.
+El disco sera [C-R, C+R] y habra un disco por cada fila. 
+
 
