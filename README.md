@@ -133,7 +133,7 @@ Siendo p(J) el radio espectral de la matriz de iteración de Jacobi
 ### Metodo de las potencias: Son dos dudas, la primera para calcular $λ_{1}$ se puede usar la formula $λ^{(n+1)}= \frac{y_{i}^{(n+1)}}{z_i^{(n)}}$ o debo usar el cociente de Rayleigh 
 
 $$
-$λ^{(n+1)}= \frac{(y^{(n+1)})^T z^{(n)}}{(z^{(n)})^T z^{(n)}}
+λ^{(n+1)}= \frac{(y^{(n+1)})^T z^{(n)}}{(z^{(n)})^T z^{(n)}}
 $$
 ---
 ## Duda Final 
