@@ -214,3 +214,17 @@ $$
 - Probar convergencia de sucesiones
 - Hallar puntos fijos
 - Probar que las funciones son contractivas
+
+### Hoja 5
+- Metodo de las potencias para calcular el maximo valor propio si es unico usando:
+
+$$ 
+y^{(n+1)} = Az^{(n)}
+$$
+
+$$
+z^{(n)} = \frac{y^{(n)}}{||y^{(n)}||}
+$$
+
+siendo $z^{(0)}$ un vector elegido arbitrarimente ||z|| $\neq$ 0 
+
