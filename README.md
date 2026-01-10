@@ -228,3 +228,9 @@ $$
 
 siendo $z^{(0)}$ un vector elegido arbitrarimente ||z|| $\neq$ 0 
 
+Para calcular  $λ^{(n+1)}= \frac{y_{i}^{(n+1)}}{z_i^{(n)}}$ o  usar el cociente de Rayleigh 
+
+$$
+λ^{(n+1)}= \frac{(y^{(n+1)})^T z^{(n)}}{(z^{(n)})^T z^{(n)}}
+$$
+
