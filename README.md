@@ -135,6 +135,7 @@ Siendo p(J) el radio espectral de la matriz de iteración de Jacobi
 $$
 λ^{(n+1)}= \frac{(y^{(n+1)})^T z^{(n)}}{(z^{(n)})^T z^{(n)}}
 $$
+
 ¿En caso de valer la primera opción hay alguna forma de elegir un i sin calcularlos todos? A parte de tener ojo para que no sean valores que tienden a 0 obviamente.
 ---
 ## Duda Final 
