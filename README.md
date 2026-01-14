@@ -142,7 +142,12 @@ $$
 ### Descripción: Esto no es una duda persé, sino más bien una duda general de si he entendido bien todo lo que entra. Como yo he estudiando basandome en los apuntes y las hojas de ejercicios me voy a basar en ello.
 ### Temario Hoja 1 y 2
 - error relativo y error absoluto
-- Norma matricial 1,2,3, $\infty$
+- Norma matricial 1,2, $\infty$
+  1. $||A||_1 el maximo de la suma de columnas$
+  2. $||A||_2 el \sqrt{p(A*A)}$
+  3. $||A||_{\infy} el maximo de la suma de las filas$
+  4. $||A||_{F} el valor de la raiz cuadrada de la suma de los cuadrados de todo a_{ij}$
+      
 - Metodo de Gauss sin pivote
 - Metodo de Gauss con pivote parcial : 
      En cada paso, antes de eliminar una columna, buscamos el elemento de mayor valor absoluto en la columna actual por debajo de la diagonal y intercambiamos filas para ponerlo en la posición pivote.
