@@ -287,6 +287,8 @@ $$
 - Metodo de Discos de Gerschgorin: El teorema de Gerschgorin es una herramienta geométrica para localizar los autovalores de una matriz en el plano complejo. No los calcula exactamente, pero da regiones donde deben estar. Este metodo sirve solo para matrices nxn.
 El metodo consiste en calcular dos cosas, el centro y el radio.
 El centro (C) es el valor de $a_{ii}$ y el radio (R) sera la suma del resto de valores.
-El disco sera [C-R, C+R] y habra un disco por cada fila. 
+El disco sera [C-R, C+R] y habra un disco por cada fila.
+- Metodo de McLaurin
+siendo a,b,c... las raices y siendo μ y λ son menor y mayor valor propio respectivamente si a es positivo estara siempre en el intervalo 1/1+μ < a < 1+ λ y si es negativo estara en - 1-λ < a < - 1/1+μ
 
 
