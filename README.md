@@ -146,7 +146,7 @@ $$
   1. $||A||_1 el maximo de la suma de columnas$
   2. $||A||_2 el \sqrt{p(A*A)}$
   3. $||A||_{\infty} el maximo de la suma de las filas$
-  4. $||A||_{F} el valor de la raiz cuadrada de la suma de los cuadrados de todo a_{ij}$
+  4. $||A||_F  el valor de la raiz cuadrada de la suma de los cuadrados de todo a_{ij}$
       
 - Metodo de Gauss sin pivote
 - Metodo de Gauss con pivote parcial : 
